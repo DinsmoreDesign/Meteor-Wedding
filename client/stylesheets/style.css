@@ -1,0 +1,112 @@
+.container {
+  max-width: 85%;
+}
+h1, h2, h3, h4, h5 {
+  color: #789;
+  font-weight: 200;
+}
+p {
+  color: #789;
+  font-weight: 300;
+}
+.colorize {
+  color: #F5B1D5;
+}
+.row {
+  margin-bottom: 0;
+}
+.indent {
+  padding-left: 30px;
+}
+.padbox {
+  padding: 100px 0 100px 0;
+}
+.padbox h3 {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.card-panel {
+  background-color: #FDE8F3;
+}
+  .card-panel p {
+    margin: 0;
+  }
+nav {
+  background-color: #FFF;
+  color: #789;
+}
+  nav ul a {
+    color: #F5B1D5;
+  }
+    nav ul a:hover {
+      background-color: #F5B1D5;
+      color: #FFF;
+    }
+  nav .brand-logo {
+    color: #F5B1D5;
+    font-weight: 200;
+  }
+.btn, .btn-large {
+  background-color: #EC53A6;
+  height: auto;
+  margin-top: 30px;
+}
+  .btn:hover, .btn-large:hover {
+    background-color: #F5B1D5;
+  }
+#hero-container {
+  height: 95vh;
+  background-image: url("/images/header.jpeg");
+  background-size: cover;
+}
+  #hero-container img {
+    padding: 30px;
+    background-color: #F5B1D5;
+    width: 70%;
+  }
+#about-container {
+  height: 60vh;
+}
+#about-image {
+  height: 100%;
+  background-image: url("/images/about.jpg");
+  background-size: cover;
+  opacity: 0.8;
+}
+#about-text {
+  height: 100%;
+  padding: 30px;
+  background-color: #FDE8F3;
+}
+.event {
+  height: 35vh;
+}
+#details-container {
+  height: 100vh;
+  background-image: url("/images/alexa.jpg");
+  background-size: cover;
+}
+  #details-container .textbox {   
+    padding: 30px;
+    background-color: #FFF;
+  }
+#party-container .card-content, #party-container .card-reveal, #party-container .card-title {
+  color: #789;
+  font-weight: 200;
+}
+  #party-container .card-content i {
+    line-height: 48px;
+    color: #F5B1D5;
+  }
+  #party-container .card-reveal i {
+    line-height: 1.5;
+    color: #F5B1D5;
+  }
+#party-container h3 {
+  padding: 0;
+  margin: 0;
+}
+#rsvp-container {
+  height: 40vh;
+  background-color: #FDE8F3;
+}
