@@ -46,6 +46,16 @@ nav {
     color: #F5B1D5;
     font-weight: 200;
   }
+  nav a {
+    color: #F5B1D5;
+  }
+.side-nav a {
+  color: #F5B1D5;
+}
+  .side-nav a:hover {
+    color: #FFF;
+    background-color: #F5B1D5;
+  }
 .btn, .btn-large {
   background-color: #EC53A6;
   height: auto;
@@ -55,7 +65,7 @@ nav {
     background-color: #F5B1D5;
   }
 #hero-container {
-  height: 95vh;
+  height: 100vh;
   background-image: url("/images/header.jpeg");
   background-size: cover;
   background-position: center;
@@ -81,14 +91,25 @@ nav {
   background-color: #FDE8F3;
 }
 #timeline-container .card-title {
-  background-color: rgba(255,255,255,0.3);
+  color: #000;
+  background-color: rgba(255,255,255,0.6);
   width: 100%;
 }
 #timeline-container .card.large .card-image {
   max-height: 100%;
 }
-.event {
-  height: 35vh;
+#timeline-container .event {
+  margin-top: 50px;
+}
+  #timeline-container .event:first-child {
+    margin-top: 100px
+  }
+  #timeline-container .event:last-child {
+    margin-bottom: 100px;
+  }
+#timeline-container img.responsive-img {
+  max-width: none;
+  width: 100%;
 }
 #details-container {
   height: 100vh;
