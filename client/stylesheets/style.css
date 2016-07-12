@@ -28,7 +28,7 @@ p {
 .card-panel {
   background-color: #FDE8F3;
 }
-  .card-panel p {
+  .card-panel p, .card-panel h4 {
     margin: 0;
   }
 nav {
@@ -58,6 +58,7 @@ nav {
   height: 95vh;
   background-image: url("/images/header.jpeg");
   background-size: cover;
+  background-position: center;
 }
   #hero-container img {
     padding: 30px;
@@ -71,12 +72,20 @@ nav {
   height: 100%;
   background-image: url("/images/about.jpg");
   background-size: cover;
+  background-position: center;
   opacity: 0.8;
 }
 #about-text {
   height: 100%;
   padding: 30px;
   background-color: #FDE8F3;
+}
+#timeline-container .card-title {
+  background-color: rgba(255,255,255,0.3);
+  width: 100%;
+}
+#timeline-container .card.large .card-image {
+  max-height: 100%;
 }
 .event {
   height: 35vh;
@@ -85,6 +94,7 @@ nav {
   height: 100vh;
   background-image: url("/images/alexa.jpg");
   background-size: cover;
+  background-position: center;
 }
   #details-container .textbox {   
     padding: 30px;
